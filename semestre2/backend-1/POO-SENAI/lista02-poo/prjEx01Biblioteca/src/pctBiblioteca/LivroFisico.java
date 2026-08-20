@@ -7,17 +7,18 @@ public class LivroFisico extends Livro {
         super(nome, autor, quantidadeDisponivel);
         this.localizacaoPrateleira = localizacaoPrateleira;
     }
+
     public String getLocalizacaoPrateleira () {
         return localizacaoPrateleira;
     }
+
     public void setLocalizacaoPrateleira (String localizacaoPrateleira){
         this.localizacaoPrateleira = localizacaoPrateleira;
     }
+
     @Override
     public void exibirInfo () {
-        System.out.println("Nome: " + nome);
-        System.out.println("Autor: " + autor);
-        System.out.println("Quantidade disponível: " + quantidadeDisponivel);
+        super.exibirInfo();
         System.out.println("Localizacao na prateleira: " + localizacaoPrateleira);
     }
 }

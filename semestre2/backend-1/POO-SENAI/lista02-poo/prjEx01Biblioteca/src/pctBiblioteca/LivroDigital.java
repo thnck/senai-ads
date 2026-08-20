@@ -7,17 +7,18 @@ public class LivroDigital extends Livro {
         super(nome, autor, quantidadeDisponivel);
         this.tamanhoArquivoMB = tamanhoArquivoMB;
     }
+
     public double getTamanhoArquivoMB () {
         return tamanhoArquivoMB;
     }
+
     public void setTamanhoArquivoMB (double tamanhoArquivoMB){
         this.tamanhoArquivoMB = tamanhoArquivoMB;
     }
+
     @Override
     public void exibirInfo () {
-        System.out.println("Nome: " + nome);
-        System.out.println("Autor: " + autor);
-        System.out.println("Quantidade disponível: " + quantidadeDisponivel);
+        super.exibirInfo();
         System.out.println("Tamanho do arquivo (MB): " + tamanhoArquivoMB);
     }
 }
