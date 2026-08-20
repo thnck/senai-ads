@@ -1,0 +1,24 @@
+.caixa{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+
+    background-color: grey;
+    border: solid black 3   px;
+
+    font-size: 80px;
+    text-align: center;
+    color: white;
+    
+}
+.container{
+    display: flex;
+    height: 100vh;
+    flex-direction: column-reverse;
+
+    justify-content: start;
+    align-items: center;
+}
+body{
+    font-family: monospace;
+}

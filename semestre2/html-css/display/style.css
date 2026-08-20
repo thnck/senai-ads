@@ -1,0 +1,31 @@
+.caixa{
+    width: 150px;
+    height: 100px;
+    background-color: aliceblue;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+.block{
+    display: block;
+}
+.inline{
+    display: inline;
+}
+.inline-block{
+    display: inline-block;
+}
+.none{
+    display: none;
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+    right: 100px;
+    bottom: 60px;
+}
+.position{
+    position: fixed;
+}
