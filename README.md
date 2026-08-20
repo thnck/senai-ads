@@ -19,81 +19,25 @@ O Curso Técnico em Desenvolvimento de Sistemas tem por objetivo habilitar profi
 ### Carga horária
 - 1200 horas
 
-## 🧠 Competências e áreas de formação
+## 📚 O que foi estudado por semestre
 
-### Programação
-- Lógica de Programação e Algoritmos
-- Linguagem de programação
-- Ambiente de desenvolvimento
-- Manipulação de arquivos
-- Git e versionamento em nuvem
+### Semestre 1
+- [Arquitetura de IoT](semestre1/arquitetura-iot)
+- [Levantamento de requisitos](semestre1/levantamento-requisitos)
+- [Programação e algoritmos](semestre1/programacao-algoritmos)
+- [Sistemas operacionais](semestre1/sistemas-operacionais)
 
-### Sistemas Operacionais
-- sistemas operacionais de código fechado e aberto
-- unidades e pastas em rede
-- firewall nativo
-- redes virtuais privadas (VPN)
-- segurança cibernética
-- política de segurança da informação
+### Semestre 2
+- [Backend 1](semestre2/backend-1)
+- [Banco de dados](semestre2/data-base)
+- [HTML e CSS](semestre2/html-css)
+- [Projetos](semestre2/projetos)
 
-### Levantamento de Requisitos
-- requisitos e documentação
-- gerenciamento de requisitos
-- metodologias Scrum e Kanban
-- Design Thinking
+### Semestre 3
+- [semestre3](semestre3)
 
-### Arquitetura de redes com IoT
-- arquitetura de redes
-- protocolos e equipamentos
-- hardware IoT
-- serviços de redes
-
-### Banco de Dados
-- SGBD
-- modelo relacional
-
-### Linguagem de Marcação
-- HTML
-- CSS
-- layouts de tela
-- estilização de páginas
-
-### Programação Back-End
-- desenvolvimento web
-- web services
-- protocolo HTTP
-- POO
-- MVC
-- persistência de dados
-- publicação de aplicações
-
-### Programação Front-End
-- JavaScript
-- design responsivo
-- acessibilidade
-- UX/UI
-- web apps
-
-### Programação para Dispositivos Móveis
-- criação de interfaces
-- APIs
-- persistência de dados
-- consumo de serviços REST
-- publicação do aplicativo
-
-### Internet das Coisas (IoT)
-- automação em IoT
-- protocolos de comunicação
-- dispositivos e interfaces interativas
-
-### Testes de Software
-- planejamento e execução de testes
-
-### Projetos de Software
-- qualidade de software
-- metodologias de desenvolvimento
-- gestão de projetos
-- apresentação de soluções
+### Semestre 4
+- [semestre4](semestre4)
 
 ---
 
@@ -141,27 +85,6 @@ senai-ads/
 
 ---
 
-## 🧩 Semestres
-
-### Semestre 1
-- [semestre1/arquitetura-iot](semestre1/arquitetura-iot)
-- [semestre1/levantamento-requisitos](semestre1/levantamento-requisitos)
-- [semestre1/programacao-algoritmos](semestre1/programacao-algoritmos)
-- [semestre1/sistemas-operacionais](semestre1/sistemas-operacionais)
-
-### Semestre 2
-- [semestre2/backend-1](semestre2/backend-1)
-- [semestre2/data-base](semestre2/data-base)
-- [semestre2/html-css](semestre2/html-css)
-- [semestre2/projetos](semestre2/projetos)
-
-### Semestre 3
-- [semestre3](semestre3)
-
-### Semestre 4
-- [semestre4](semestre4)
-
----
 
 ## 🚀 Objetivo deste repositório
 
