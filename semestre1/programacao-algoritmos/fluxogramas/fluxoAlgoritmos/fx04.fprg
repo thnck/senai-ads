@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="LavarLouca"/>
+        <attribute name="authors" value="DEV"/>
+        <attribute name="about" value="Passo a passo para lavar a louça"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+
+            <output expression="&quot;Como lavar a louça&quot;" newline="True"/>
+            <output expression="&quot;1 - Suje a louça&quot;" newline="True"/>
+            <output expression="&quot;2 - Coloque a louça suja na pia&quot;" newline="True"/>
+            <output expression="&quot;3 - Abra a torneira&quot;" newline="True"/>
+            <output expression="&quot;4 - Molhe a louça&quot;" newline="True"/>
+            <output expression="&quot;5 - Feche a torneira&quot;" newline="True"/>
+            <output expression="&quot;6 - Tire toda a sujeira da louça com sabão&quot;" newline="True"/>
+            <output expression="&quot;7 - Abra a torneira&quot;" newline="True"/>
+            <output expression="&quot;8 - Enxague toda a louça&quot;" newline="True"/>
+            <output expression="&quot;9 - Feche a torneira&quot;" newline="True"/>
+            <output expression="&quot;10 - Tire e deixe escorrer&quot;" newline="True"/>
+            <output expression="&quot;11 - Quando escorrer, seque e lave os pratos&quot;" newline="True"/>
+            <output expression="&quot;Fim do passo a passo&quot;" newline="True"/>
+
+        </body>
+    </function>
+</flowgorithm>

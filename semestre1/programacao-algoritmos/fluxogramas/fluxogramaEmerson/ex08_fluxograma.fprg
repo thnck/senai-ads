@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="aula03_fluxograma"/>
+        <attribute name="authors" value="DEV"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-02-19 03:55:58 "/>
+        <attribute name="created" value="REVWO0RFVl9TTDAxXzMyOzIwMjYtMDItMTk7IjAxOjM1OjMwICI7MjE4Mg=="/>
+        <attribute name="edited" value="REVWO0RFVl9TTDAxXzMyOzIwMjYtMDItMTk7IjAzOjU1OjU4ICI7MjsyMzA1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n1, n2, n3, n4" type="Integer" array="False" size=""/>
+            <declare name="media" type="Real" array="False" size=""/>
+            <output expression="&quot;digite as notas do semestre&quot;" newline="True"/>
+            <input variable="n1"/>
+            <input variable="n2"/>
+            <input variable="n3"/>
+            <input variable="n4"/>
+            <assign variable="media" expression="(n1+n2+n3+n4)/4"/>
+            <output expression="&quot;sua media &#233;&quot;" newline="True"/>
+            <output expression="media" newline="True"/>
+            <if expression="media &gt;= 7">
+                <then>
+                    <output expression="&quot;parab&#233;ns, voc&#234; tirou a nota esperada!&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="media &gt;= 5">
+                        <then>
+                            <output expression="&quot;vish, voc&#234; ficou de recupera&#231;&#227;o!&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;vish, voc&#234; foi reprovado!&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

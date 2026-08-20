@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="AssistirFilme"/>
+        <attribute name="authors" value="DEV"/>
+        <attribute name="about" value="Passo a passo para assistir um filme"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+
+            <output expression="&quot;Como assistir um filme&quot;" newline="True"/>
+            <output expression="&quot;1 - Sente-se na frente de uma TV&quot;" newline="True"/>
+            <output expression="&quot;2 - Ligue a TV&quot;" newline="True"/>
+            <output expression="&quot;3 - Escolha um canal que passe filmes&quot;" newline="True"/>
+            <output expression="&quot;4 - Selecione o canal escolhido&quot;" newline="True"/>
+            <output expression="&quot;5 - Olhe e preste atenção no filme&quot;" newline="True"/>
+            <output expression="&quot;Fim do passo a passo&quot;" newline="True"/>
+
+        </body>
+    </function>
+</flowgorithm>

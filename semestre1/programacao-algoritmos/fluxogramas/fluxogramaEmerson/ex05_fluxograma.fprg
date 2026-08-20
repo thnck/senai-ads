@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="ex05_fluxograma"/>
+        <attribute name="authors" value="DEV"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-02-19 03:25:50 "/>
+        <attribute name="created" value="REVWO0RFVl9TTDAxXzMyOzIwMjYtMDItMTk7IjAzOjEzOjQ4ICI7MjE4OQ=="/>
+        <attribute name="edited" value="REVWO0RFVl9TTDAxXzMyOzIwMjYtMDItMTk7IjAzOjI1OjUwICI7MTsyMjkz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nome" type="String" array="False" size=""/>
+            <declare name="s" type="Integer" array="False" size=""/>
+            <declare name="re" type="Integer" array="False" size=""/>
+            <declare name="sre" type="Real" array="False" size=""/>
+            <output expression="&quot;Qual seu nome?&quot;" newline="True"/>
+            <input variable="nome"/>
+            <output expression="&quot;Qual seu sal&#225;rio?&quot;" newline="True"/>
+            <input variable="s"/>
+            <output expression="&quot;Qual a % do reajuste do seu sal&#225;rio?&quot;" newline="True"/>
+            <input variable="re"/>
+            <assign variable="sre" expression="s*(re/100)"/>
+            <output expression="&quot;NOME: &quot; &amp; nome &amp; &#13;&#10;&quot;     SAL&#193;RIO REAJUSTADO: &quot; &amp; sre &amp; &quot;&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

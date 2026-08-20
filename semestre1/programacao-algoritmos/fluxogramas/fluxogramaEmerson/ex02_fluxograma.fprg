@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="ex02_fluxograma"/>
+        <attribute name="authors" value="DEV"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-02-19 03:05:51 "/>
+        <attribute name="created" value="REVWO0RFVl9TTDAxXzMyOzIwMjYtMDItMTk7IjAyOjQ0OjI3ICI7MjE4OQ=="/>
+        <attribute name="edited" value="REVWO0RFVl9TTDAxXzMyOzIwMjYtMDItMTk7IjAzOjA1OjUxICI7MjsyMjkz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero" type="Integer" array="False" size=""/>
+            <declare name="resultado" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite um n&#250;mero para saber seu sucessor:&quot;" newline="True"/>
+            <input variable="numero"/>
+            <assign variable="resultado" expression="numero+1"/>
+            <output expression="&quot;O proximo numero &#233; &quot; &amp; resultado &amp;&quot;.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

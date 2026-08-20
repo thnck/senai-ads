@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="BoloDeLaranja"/>
+        <attribute name="authors" value="DEV"/>
+        <attribute name="about" value="Fluxograma da receita de bolo de laranja"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+
+            <output expression="&quot;Inicio da receita de Bolo de Laranja&quot;" newline="True"/>
+
+            <output expression="&quot;Pegar 4 ovos&quot;" newline="True"/>
+            <output expression="&quot;Pegar 2 xicaras de acucar&quot;" newline="True"/>
+            <output expression="&quot;Pegar 1 xicara de oleo&quot;" newline="True"/>
+            <output expression="&quot;Pegar o suco de 2 laranjas&quot;" newline="True"/>
+            <output expression="&quot;Pegar a casca de 1 laranja&quot;" newline="True"/>
+            <output expression="&quot;Pegar 2 xicaras de farinha de trigo&quot;" newline="True"/>
+            <output expression="&quot;Pegar 1 colher de fermento&quot;" newline="True"/>
+            <output expression="&quot;Bater tudo no liquidificador&quot;" newline="True"/>
+            <output expression="&quot;Despejar em uma tigela&quot;" newline="True"/>
+            <output expression="&quot;Adicionar farinha e misturar&quot;" newline="True"/>
+            <output expression="&quot;Adicionar fermento e misturar delicadamente&quot;" newline="True"/>
+            <output expression="&quot;Colocar em forma untada e enfarinhada&quot;" newline="True"/>
+            <output expression="&quot;Assar por aproximadamente 30 minutos&quot;" newline="True"/>
+            <output expression="&quot;Desenformar o bolo&quot;" newline="True"/>
+            <output expression="&quot;Molhar com suco de laranja&quot;" newline="True"/>
+
+            <output expression="&quot;Fim da receita&quot;" newline="True"/>
+
+        </body>
+    </function>
+</flowgorithm>

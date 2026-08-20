@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="ProvaENEM"/>
+        <attribute name="authors" value="DEV"/>
+        <attribute name="about" value="Passo a passo simples para fazer a prova do ENEM"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+
+            <output expression="&quot;Como fazer a prova do ENEM&quot;" newline="True"/>
+            <output expression="&quot;1 - Espere até a data da inscrição da prova&quot;" newline="True"/>
+            <output expression="&quot;2 - Abra o site do INEP&quot;" newline="True"/>
+            <output expression="&quot;3 - Faça a inscrição&quot;" newline="True"/>
+            <output expression="&quot;4 - Aguarde até a data da prova&quot;" newline="True"/>
+            <output expression="&quot;5 - Separe os materiais necessários&quot;" newline="True"/>
+            <output expression="&quot;6 - Vá até o local da prova&quot;" newline="True"/>
+            <output expression="&quot;7 - Comece a prova&quot;" newline="True"/>
+            <output expression="&quot;Fim do passo a passo&quot;" newline="True"/>
+
+        </body>
+    </function>
+</flowgorithm>

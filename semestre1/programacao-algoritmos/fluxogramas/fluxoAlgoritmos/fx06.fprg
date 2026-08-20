@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="LimparCasa"/>
+        <attribute name="authors" value="DEV"/>
+        <attribute name="about" value="Passo a passo para limpar a casa"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+
+            <output expression="&quot;Como limpar a casa&quot;" newline="True"/>
+            <output expression="&quot;1 - Pegue uma vassoura&quot;" newline="True"/>
+            <output expression="&quot;2 - Tire o pó e sujeira da casa com a vassoura&quot;" newline="True"/>
+            <output expression="&quot;3 - Guarde a vassoura&quot;" newline="True"/>
+            <output expression="&quot;4 - Pegue um rodo&quot;" newline="True"/>
+            <output expression="&quot;5 - Pegue um pano com sabão&quot;" newline="True"/>
+            <output expression="&quot;6 - Coloque o pano sobre o rodo&quot;" newline="True"/>
+            <output expression="&quot;7 - Tire as manchas com o pano e o rodo&quot;" newline="True"/>
+            <output expression="&quot;Fim do passo a passo&quot;" newline="True"/>
+
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="EstamparCamiseta"/>
+        <attribute name="authors" value="DEV"/>
+        <attribute name="about" value="Passo a passo para estampar uma camiseta"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+
+            <output expression="&quot;Como estampar uma camiseta&quot;" newline="True"/>
+            <output expression="&quot;1 - Pegue uma tinta&quot;" newline="True"/>
+            <output expression="&quot;2 - Pegue uma camiseta&quot;" newline="True"/>
+            <output expression="&quot;3 - Passe a tinta na camiseta&quot;" newline="True"/>
+            <output expression="&quot;4 - Espere a tinta secar&quot;" newline="True"/>
+            <output expression="&quot;Fim do passo a passo&quot;" newline="True"/>
+
+        </body>
+    </function>
+</flowgorithm>

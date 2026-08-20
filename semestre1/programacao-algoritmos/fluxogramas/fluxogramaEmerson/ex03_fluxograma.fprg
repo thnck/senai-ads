@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="ex03_fluxograma"/>
+        <attribute name="authors" value="DEV"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-02-19 03:06:11 "/>
+        <attribute name="created" value="REVWO0RFVl9TTDAxXzMyOzIwMjYtMDItMTk7IjAyOjUzOjQ3ICI7MjE5MQ=="/>
+        <attribute name="edited" value="REVWO0RFVl9TTDAxXzMyOzIwMjYtMDItMTk7IjAzOjA2OjExICI7MTsyMjg5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="altura" type="Integer" array="False" size=""/>
+            <declare name="base" type="Integer" array="False" size=""/>
+            <declare name="area" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite a altura do seu tri&#226;ngulo&quot;" newline="True"/>
+            <input variable="altura"/>
+            <output expression="&quot;Digite a base do seu tri&#226;ngulo&quot;" newline="True"/>
+            <input variable="base"/>
+            <assign variable="area" expression="altura*base"/>
+            <output expression="&quot;A &#225;rea do seu tri&#226;ngulo &#233; &quot; &amp; area &amp; &quot;.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

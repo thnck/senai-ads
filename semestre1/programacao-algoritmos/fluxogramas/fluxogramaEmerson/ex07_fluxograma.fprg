@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="ex07_fluxograma"/>
+        <attribute name="authors" value="DEV"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-02-19 03:50:05 "/>
+        <attribute name="created" value="REVWO0RFVl9TTDAxXzMyOzIwMjYtMDItMTk7IjAzOjMzOjE4ICI7MjE4OA=="/>
+        <attribute name="edited" value="REVWO0RFVl9TTDAxXzMyOzIwMjYtMDItMTk7IjAzOjUwOjA1ICI7MTsyMjkx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <declare name="b" type="Integer" array="False" size=""/>
+            <declare name="c" type="Integer" array="False" size=""/>
+            <declare name="d" type="Integer" array="False" size=""/>
+            <output expression="&quot;Para calcular (a + b) / c digite o valor a:&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;Digite o valor de b:&quot;" newline="True"/>
+            <input variable="b"/>
+            <output expression="&quot;Digite o valor de c:&quot;" newline="True"/>
+            <input variable="c"/>
+            <assign variable="d" expression="(a + b) / c"/>
+            <output expression="&quot;O valor &#233;: &quot; &amp;d&amp;&quot;&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

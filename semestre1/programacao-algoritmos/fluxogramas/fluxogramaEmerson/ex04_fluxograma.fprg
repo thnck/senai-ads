@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="ex04_fluxograma"/>
+        <attribute name="authors" value="DEV"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-02-19 03:13:43 "/>
+        <attribute name="created" value="REVWO0RFVl9TTDAxXzMyOzIwMjYtMDItMTk7IjAzOjA2OjI2ICI7MjE4Nw=="/>
+        <attribute name="edited" value="REVWO0RFVl9TTDAxXzMyOzIwMjYtMDItMTk7IjAzOjEzOjQzICI7MTsyMjky"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="c" type="Integer" array="False" size=""/>
+            <declare name="f" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite uma temperatura em Celsius para saber seu valor em Fahrenheit:&quot;" newline="True"/>
+            <input variable="c"/>
+            <assign variable="f" expression="(c * 9 / 5) + 32"/>
+            <output expression="&quot;A temperatura em Fahrenheit &#233; &quot; &amp; f&amp;&quot;.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="ex06_fluxograma"/>
+        <attribute name="authors" value="DEV"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-02-19 03:33:15 "/>
+        <attribute name="created" value="REVWO0RFVl9TTDAxXzMyOzIwMjYtMDItMTk7IjAzOjI1OjUyICI7MjE4Nw=="/>
+        <attribute name="edited" value="REVWO0RFVl9TTDAxXzMyOzIwMjYtMDItMTk7IjAzOjMzOjE1ICI7MTsyMjkz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nt" type="String" array="False" size=""/>
+            <declare name="v" type="Integer" array="False" size=""/>
+            <declare name="e" type="Integer" array="False" size=""/>
+            <declare name="tp" type="Real" array="False" size=""/>
+            <output expression="&quot;Qual o nome do seu time?&quot;" newline="True"/>
+            <input variable="nt"/>
+            <output expression="&quot;Qual o total de vit&#243;rias do seu time?&quot;" newline="True"/>
+            <input variable="v"/>
+            <output expression="&quot;Qual o total de empates do seu time?&quot;" newline="True"/>
+            <input variable="e"/>
+            <assign variable="tp" expression="(v*3)+e"/>
+            <output expression="&quot;Nome do time: &quot; &amp;nt&amp;&#13;&#10;&quot;     Pontua&#231;&#227;o: &quot; &amp;tp&amp; &quot;&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

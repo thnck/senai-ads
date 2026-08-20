@@ -1,0 +1,5 @@
+Estampar um camiseta
+1- Pegue uma tinta
+2- Pegue uma camiseta
+3- Passe a tinta na camiseta
+4- Espere a tinta secar
