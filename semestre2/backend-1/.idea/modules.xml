@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/backend-1.iml" filepath="$PROJECT_DIR$/.idea/backend-1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/POO-SENAI/prjBanco/prjBanco.iml" filepath="$PROJECT_DIR$/POO-SENAI/prjBanco/prjBanco.iml" />
+      <module fileurl="file://$PROJECT_DIR$/POO-SENAI/prjEmpresa/prjEmpresa.iml" filepath="$PROJECT_DIR$/POO-SENAI/prjEmpresa/prjEmpresa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/POO-SENAI/lista02-poo/prjEx01Biblioteca/prjEx01Biblioteca.iml" filepath="$PROJECT_DIR$/POO-SENAI/lista02-poo/prjEx01Biblioteca/prjEx01Biblioteca.iml" />
+      <module fileurl="file://$PROJECT_DIR$/POO-SENAI/lista02-poo/prjEx02Funcionarios/prjEx02Funcionarios.iml" filepath="$PROJECT_DIR$/POO-SENAI/lista02-poo/prjEx02Funcionarios/prjEx02Funcionarios.iml" />
+      <module fileurl="file://$PROJECT_DIR$/POO-SENAI/lista02-poo/prjEx03Veiculos/prjEx03Veiculos.iml" filepath="$PROJECT_DIR$/POO-SENAI/lista02-poo/prjEx03Veiculos/prjEx03Veiculos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/POO-SENAI/prjNaruto/prjNaruto.iml" filepath="$PROJECT_DIR$/POO-SENAI/prjNaruto/prjNaruto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/POO-SENAI/prjNinja/prjNinja.iml" filepath="$PROJECT_DIR$/POO-SENAI/prjNinja/prjNinja.iml" />
+      <module fileurl="file://$PROJECT_DIR$/POO-SENAI/prjPokemon/prjPokemon.iml" filepath="$PROJECT_DIR$/POO-SENAI/prjPokemon/prjPokemon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/revisaoBackEnd/prjRevisaoBackend/prjRevisaoBackend.iml" filepath="$PROJECT_DIR$/revisaoBackEnd/prjRevisaoBackend/prjRevisaoBackend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sistemaEstoque/sistemaEstoque.iml" filepath="$PROJECT_DIR$/sistemaEstoque/sistemaEstoque.iml" />
+    </modules>
+  </component>
+</project>
