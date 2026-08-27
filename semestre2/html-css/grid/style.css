@@ -1,0 +1,14 @@
+body{
+    text-align: center;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+    column-gap: 15px;
+}
+.item{
+    background-color:brown;
+    border: solid rgb(83, 60, 60) 2px;
+    width: 50px;
+}   
