@@ -67,5 +67,4 @@ public class Produto {
     public String toString(){
         return String.format("ID: %d || Nome: %-20s || Qtd: 5d || Preço: R$ %2.f", id, nome, quantidade, preco);
     }
-
 }

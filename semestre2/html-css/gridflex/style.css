@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-size:  50px;
+}
+    .pagina{
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "menu main"
+    "footer footer";
+    grid-template-columns: 200px 1fr ;
+    grid-template-rows: 80px 200px 80px;
+    gap: 10px;
+    
+}
+
+header{
+    grid-area: header;
+    background-color: yellow;
+}
+nav{
+    grid-area: menu;
+    background-color: blue;
+}
+main{
+    grid-area: main;
+    background-color: aquamarine;
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    grid-area: footer;
+    background-color: coral;
+}
+.caixa{
+    background-color: darkorchid;
+    font-size: 30px;
+    padding: 15px;
+}
