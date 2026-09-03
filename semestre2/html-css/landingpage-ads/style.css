@@ -1,74 +1,155 @@
 body {
-  font-family: "Comic Sans Local", "Comic Sans MS", cursive, sans-serif;
-  line-height: 1.6;
-  background:
-    linear-gradient(
-      to right,
-      transparent 62px,
-      rgba(255, 49, 49, 0.4) 62px,
-      rgba(255, 49, 49, 0.4) 64px,
+        font-family: "Comic Sans Local", "Comic Sans MS", cursive, sans-serif;
+        line-height: 1.6;
+        background:
+          linear-gradient(
+            to right,
+            transparent 62px,
+            rgba(255, 49, 49, 0.4) 62px,
+            rgba(255, 49, 49, 0.4) 64px,
+            transparent 64px,
+            transparent calc(100% - 36px)
+          ),
+          linear-gradient(
+            to left,
+            transparent 62px,
+            rgba(255, 49, 49, 0.1) 62px,
+            rgba(255, 49, 49, 0.1) 64px,
+            transparent 64px,
+            transparent calc(100% - 62px)
+          ),
+          repeating-linear-gradient(
+            to bottom,
+            #ffffff 0px,
+            #ffffff 30px,
+            rgba(56, 182, 255, 0.4) 30px,
+            rgba(56, 182, 255, 0.4) 32px
+          );
+        background-repeat: no-repeat;
+      }
 
-      transparent 64px,
-      transparent calc(100% - 36px)
-    ),
-    linear-gradient(
-      to left,
-      transparent 62px,
-      rgba(255, 49, 49, 0.1) 62px,
-      rgba(255, 49, 49, 0.1) 64px,
+      header {
+        border: 3px solid rgba(0, 0, 0, 0.2);
+        background: rgb(255, 255, 255);
+      }
 
-      transparent 64px,
-      transparent calc(100% - 62px)  
-    ),
-    repeating-linear-gradient(
-      to bottom ,
-      #ffffff 0px,
-      #ffffff 30px,
-      rgba(56, 182, 255, 0.4) 30px,
-      rgba(56, 182, 255, 0.4) 32px
-    );
-  background-repeat: no-repeat;
-}
+      nav {
+        width: 1000px;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+        position: relative;
+        align-items: center;
+      }
 
-header {
-  border: 3px solid rgba(0, 0, 0, 0.2);
-  background: rgb(255, 255, 255);
-}
+      nav a {
+        color: #000000;
+        text-decoration: none;
+        font-size: 15px;
+        text-transform: uppercase;
+        font-weight: 700;
+      }
 
-nav {
-  width: 1000px; 
-  margin: auto;
+      nav img {
+        width: 200px;
+        display: block;
+        margin-right: auto;
+      }
+
+      main {
+        width: 1000px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+
+      section {
+        padding: 18px 20px;
+        background-color: rgba(0, 0, 0, 0.02);
+      }
+
+      .grupo {
+        margin: 0;
+        width: 450px;
+        text-align: center;
+      }
+
+      .grupo img {
+        width: 100%;
+        height: auto;
+        display: flex;
+        border: 1px solid #333;
+        background: #fff;
+      }
+
+      .grupo figcaption {
+        margin-top: 8px;
+        font-weight: 500;
+        width: 580px;
+      }
+
+      .divsor {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 50px;
+        margin: 24px 0;
+      }
+
+      .sor {
+        margin: 0;
+        width: 450px;
+        text-align: center;
+      }
+
+      .sor img {
+        width: 100%;
+        height: auto;
+        display: block;
+        border: 3px solid #000000;
+        background: #fff;
+      }
+
+      .sor figcaption {
+        margin-top: 8px;
+        font-weight: 500;
+        font-size: large;
+        width: 400px;
+      }
+
+      hr {
+        border: none;
+        height: 50px;
+      }
+
+      mark {
+        background-color: rgba(255, 0, 0, 0.2);
+        color: inherit;
+        padding: 0 4px;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4 {
+        margin-top: 0;
+        line-height: 1.2;
+        font-family: "Comic Sans Local", "Comic Sans MS", cursive, sans-serif;
+      }
+
+      footer {
+        border: 3px solid rgba(0, 0, 0, 0.2);
+        background: rgb(255, 255, 255);
+        text-align: center;
+        padding: 20px;
+      }
+      .divgrupo {
   display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
   justify-content: center;
-  position: relative;
   align-items: center;
-}
-
-nav a {
-  color: #000000;
-  text-decoration: none;
-  font-size: 15px;
-  text-transform: uppercase;   
-  font-weight: 700;
-}
-
-nav img {
-  width: 200px; 
-  display: block;
-  margin-right: auto;
-} 
-
-main {
-  width: 1000px; 
-  margin: 0 auto;
-  padding: 20px;
-}
-
-section {
-  padding: 18px 20px;
-  background-color: rgba(0, 0, 0, 0.02);
+  gap: 40px;
+  margin: 24px 0;
 }
 
 .grupo {
@@ -80,69 +161,24 @@ section {
 .grupo img {
   width: 100%;
   height: auto;
-  display: flex; 
+  display: block;
   border: 1px solid #333;
   background: #fff;
-}   
+}
 
 .grupo figcaption {
   margin-top: 8px;
   font-weight: 500;
-  width: 580px;
-} 
-
-.divsor {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 50px; 
-  margin: 24px 0;
+  width: 100%;
 }
 
-.sor {
+.postit {
   margin: 0;
-  width: 450px;
-  text-align: center;
+  width: 300px;
 }
- 
-.sor img {
+
+.postit img {
   width: 100%;
   height: auto;
   display: block;
-  border: 3px solid #000000;
-  background: #fff;
-}
-  
-.sor figcaption {
-  margin-top: 8px;
-  font-weight: 500;
-  font-size: large;
-  width: 400px;
-}
-
-hr {
-  border: none;
-  height: 50px;
-}  
-
-mark {
-  background-color: rgba(255, 0, 0, 0.2);
-  color: inherit; 
-  padding: 0 4px;
-}
-   
-h1,
-h2,
-h3,
-h4 { 
-  margin-top: 0;
-  line-height: 1.2; 
-  font-family: "Comic Sans Local", "Comic Sans MS", cursive, sans-serif;
-}
- 
-footer {
-  border: 3px solid rgba(0, 0, 0, 0.2); 
-  background: rgb(255, 255, 255);
-  text-align: center;
-  padding: 20px;
 }
