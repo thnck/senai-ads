@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Imagem 3</title>
+
+    <style>
+      body {
+        background-color: #1e2323;
+        font-family: monospace;
+        color: white;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+      }
+
+      section {
+        margin: 30px;
+      }
+
+      .areas {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        margin: 0;
+      }
+
+      .grid {
+        display: grid;
+        width: 300px;
+        height: 150px;
+        gap: 4px;
+      }
+
+      .grid div {
+        background-color: #ed26a8;
+      }
+      #d7 div {
+        background-color: #fae0f1;
+      }
+
+      .ex01 {
+        grid-template-areas:
+          "a b c"
+          "d e f";
+      }
+
+      .ex02 {
+        grid-template-areas:
+          "a a b"
+          "c d b";
+      }
+
+      .ex03 {
+        grid-template-columns: 1fr 2fr;
+        grid-template-areas:
+          "a a"
+          "b c"
+          "d d";
+      }
+
+      .ex04 {
+        grid-template-rows: 2fr 3fr 1fr;
+        grid-template-areas:
+          "a a a b b b"
+          "c c d d d d"
+          "e e e e e e";
+      }
+
+      .ex05 {
+        grid-template-areas:
+          "a b c d e f"
+          "g h i j k l"
+          "m n o p q r";
+      }
+
+      .ex06 {
+        grid-template-areas:
+          "a a b c"
+          "d e f ."
+          "g g h i"
+          "g g j ."
+          "k k k l";
+      }
+
+      .ex07 {
+        grid-template-rows: 1fr 2fr;
+        grid-template-areas:
+          "a b"
+          "c d";
+      }
+      #d7 {
+        display: grid;
+        padding: 4px;
+        gap: 4px;
+        grid-template-areas:
+          "e e"
+          "f g";
+      }
+
+      .ex08 {
+        grid-template-areas:
+          "a b c d e"
+          "f g h h h"
+          "i i i i i";
+      }
+
+      .ex09 {
+        grid-template-rows: 2fr 3fr 3fr;
+        grid-template-columns: 3fr 2fr 2fr;
+        grid-template-areas:
+          "a a a "
+          "b c c "
+          "b d e";
+      }
+
+      .a {
+        grid-area: a;
+      }
+      .b {
+        grid-area: b;
+      }
+      .c {
+        grid-area: c;
+      }
+      .d {
+        grid-area: d;
+      }
+      .e {
+        grid-area: e;
+      }
+      .f {
+        grid-area: f;
+      }
+      .g {
+        grid-area: g;
+      }
+      .h {
+        grid-area: h;
+      }
+      .i {
+        grid-area: i;
+      }
+      .j {
+        grid-area: j;
+      }
+      .k {
+        grid-area: k;
+      }
+      .l {
+        grid-area: l;
+      }
+      .m {
+        grid-area: m;
+      }
+      .n {
+        grid-area: n;
+      }
+      .o {
+        grid-area: o;
+      }
+      .p {
+        grid-area: p;
+      }
+      .q {
+        grid-area: q;
+      }
+      .r {
+        grid-area: r;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Imagem 3</h1>
+    <div class="areas">
+      <section>
+        <div class="grid ex01">
+          <div class="a"></div>
+          <div class="b"></div>
+          <div class="c"></div>
+          <div class="d"></div>
+          <div class="e"></div>
+          <div class="f"></div>
+        </div>
+      </section>
+
+      <section>
+        <div class="grid ex02">
+          <div class="a"></div>
+          <div class="b"></div>
+          <div class="c"></div>
+          <div class="d"></div>
+        </div>
+      </section>
+
+      <section>
+        <div class="grid ex03">
+          <div class="a"></div>
+          <div class="b"></div>
+          <div class="c"></div>
+          <div class="d"></div>
+        </div>
+      </section>
+
+      <section>
+        <div class="grid ex04">
+          <div class="a"></div>
+          <div class="b"></div>
+          <div class="c"></div>
+          <div class="d"></div>
+          <div class="e"></div>
+        </div>
+      </section>
+
+      <section>
+        <div class="grid ex05">
+          <div class="a"></div>
+          <div class="b"></div>
+          <div class="c"></div>
+          <div class="d"></div>
+          <div class="e"></div>
+          <div class="f"></div>
+          <div class="g"></div>
+          <div class="h"></div>
+          <div class="i"></div>
+          <div class="j"></div>
+          <div class="k"></div>
+          <div class="l"></div>
+          <div class="m"></div>
+          <div class="n"></div>
+          <div class="o"></div>
+          <div class="p"></div>
+          <div class="q"></div>
+          <div class="r"></div>
+        </div>
+      </section>
+
+      <section>
+        <div class="grid ex06">
+          <div class="a"></div>
+          <div class="b"></div>
+          <div class="c"></div>
+          <div class="d"></div>
+          <div class="e"></div>
+          <div class="f"></div>
+          <div class="g"></div>
+          <div class="h"></div>
+          <div class="i"></div>
+          <div class="j"></div>
+          <div class="k"></div>
+          <div class="l"></div>
+        </div>
+      </section>
+
+      <section>
+        <div class="grid ex07">
+          <div class="a"></div>
+          <div class="b"></div>
+          <div class="c"></div>
+          <div class="d" id="d7">
+            <div class="e"></div>
+            <div class="f"></div>
+            <div class="g"></div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="grid ex08">
+          <div class="a"></div>
+          <div class="b"></div>
+          <div class="c"></div>
+          <div class="d"></div>
+          <div class="e"></div>
+          <div class="f"></div>
+          <div class="g"></div>
+          <div class="h"></div>
+          <div class="i"></div>
+        </div>
+      </section>
+
+      <section>
+        <div class="grid ex09">
+          <div class="a"></div>
+          <div class="b"></div>
+          <div class="c"></div>
+          <div class="d"></div>
+          <div class="e"></div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
