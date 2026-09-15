@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ranking cachorros</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+      }
+      body {
+        font-family: monospace;
+        background-color: burlywood;
+      }
+      header {
+        background-color: blanchedalmond;
+        height: 15vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100vw;
+        
+      }
+      nav {
+        background-color: darkgoldenrod;
+        padding: 10px;
+        gap: 30px;
+        display: flex;
+        justify-content: center;
+        height: 10vh;
+        font-size: large;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+      }
+      nav a {
+        text-decoration: none;
+        color: white;
+      }
+      .destaque {
+        display: flex;
+        justify-content: center;
+        background-color: rgb(154, 102, 39);
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        height: 80px;
+        color: white;
+      }
+      main {
+        background-color: burlywood;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+      }
+      #sobre{
+        background-color: antiquewhite;
+        width: 60vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+        padding: 10px;
+      }
+      #sobre p{
+        width: 60%;
+      }
+
+      .card{
+        background-color: rgb(206, 128, 54);
+        color: white;
+        
+        width: 300px;
+        line-height: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .cards{
+        gap: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      footer {
+        background-color: chocolate;
+        font-size: 20px;
+        color: white;
+        height: 15vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      @media(max-width:600px){
+.card{
+        background-color: rgb(206, 128, 54);
+        color: white;
+        
+        width: 300px;
+        line-height: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .cards{
+        gap: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Alguns cachorros</h1>
+      <p>Algumas raças de cachorros que o Thomas gosta</p>
+    </header>
+    <nav>
+      <a href="#inicio">Início</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#racas">Raças</a>
+      <a href="#contato">Contato</a>
+    </nav>
+    <main>
+        <section id="sobre">
+            <h2>Oque são cachorros?</h2>
+            <p>Os cães são animais de médio a pequeno porte, que se alimentam predominantemente de carne. Raposas, chacais, coiotes, mabecos, lobos e cachorros pertencem a esta família.</p>
+            <p>O cão, também chamado de cachorro, é na verdade uma subespécie do lobo: o cinzento. Ele foi domesticado há mais de 130 mil anos, auxiliando o homem em caças e na guarda de seus territórios; tornando-se, no decorrer desse tempo, também um grande companheiro.</p>
+            <img src="https://media.istockphoto.com/id/1842169876/pt/vetorial/wolf-vintage-engraved-illustration-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=kTpZfLQEdkOkpmk6PLrmp8W6l299hFAPl3pNDzm99zg=" alt="lobo cinzento desenho" width="150vw" height="100vh">
+
+
+        </section>
+
+
+      <section class="destaque" id="racas">
+        <h2>Ranking oficial</h2>
+        <p>Ranking oficial de cachorrinhos bonitinhos do Thomas. </p>
+      </section>
+      <section class="cards">
+        <div class="card">
+          <h2>1 Lugar</h2>
+          <p>Cachorro Salsicha</p>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/b/be/%EB%8B%A5%EC%8A%A4%ED%9B%88%ED%8A%B8%28%EB%8B%A8%EB%AA%A8%EC%A2%85%29_%28Dachshund_%28Short%29%29.jpg?utm_source=pt.wikipedia.org&utm_campaign=index&utm_content=original" 
+          alt="cachorro salsicha" width="300px" height="200px">
+        </div>
+        <div class="card">
+          <h2>2 Lugar</h2>
+          <p>Golden retriever</p>
+          <img src="https://heronscrossing.vet/wp-content/uploads/Golden-Retriever.jpg" alt="golden retriever" width="300px" height="200px">
+        </div>
+        <div class="card">
+          <h2>3 Lugar</h2>
+          <p>SRD - Vira-Lata</p>
+          <img src="https://www.patasdacasa.com.br/sites/default/files/noticias/2021/08/vira-lata-o-que-esperar-do-comportamento-do-cachorro-srd.jpg" alt="SRD - Vira-Lata"
+          width="300px" height="200px">
+        </div>
+      </section>
+    </main>
+    <footer id="contato">Meu site de cachorrinhos - 2026</footer>
+  </body>
+</html>

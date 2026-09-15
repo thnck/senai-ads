@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introdução a Responsividade</title>
+    <style>
+        body{
+            font-family: monospace;
+            margin: 0;
+            padding: 70px;
+            background-color: darkslategrey;
+        }
+
+        h1{
+            text-align: center;
+            color: white;
+        }
+        .container{
+            display: flex;
+            gap: 20px;
+            
+        }
+        .caixa{
+            background-color: deepskyblue;
+            flex: 1;
+            padding: 30px;
+            text-align: center;
+            font-size: 30px;
+        }
+        @media(max-width:800px){
+            .container{
+            flex-direction: column;
+            }
+            body{
+                background-color: crimson;
+            }
+        @media(max-width:600px){
+            .container{
+            flex-direction: column;
+            }
+            body{
+                background-color: blue;
+            }
+        }
+        
+        }
+    </style>
+</head>
+<body>
+    <h1>Página Responsiva</h1>
+    <div class="container">
+        <div class="caixa">1</div>
+        <div class="caixa">2</div>
+        <div class="caixa">3</div>
+    </div>
+    
+</body>
+</html>
