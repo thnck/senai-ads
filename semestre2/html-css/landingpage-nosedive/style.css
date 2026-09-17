@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: serif;
+}
+
+header {
+}
+
+.lacie {
+  width: 100vw;
+}
+h1 {
+  font-size: 100px;
+  width: 50vw;
+  margin-bottom: 10px;
+  margin-left: 50px;
+}
+header p {
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+}
+nav div {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  background-color: rgb(15, 15, 15);
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 20px;
+}
+
+main h2 {
+  font-size: 30px;
+}
+main p {
+  font-size: large;
+}
+
+#sobre img {
+  width: 25vw;
+}
+#casa img {
+  width: 30vw;
+}
+
+main {
+  width: 70vw;
+  background-color: rgb(30, 30, 30);
+  padding: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #C0C0C0;
+}
+body div {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+section {
+  margin: 20px;
+}
+
+footer {
+  background-color: #303030;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #909090;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.card p{
+    margin: 10px;
+    padding: 10px;
+}
