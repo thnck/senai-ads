@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: antiquewhite;
+  color: rgb(5, 5, 5);
+}
+
+header {
+  background-color: #1b1b1b;
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+header p {
+  color: gold;
+}
+
+nav {
+  background-color: #333;
+  text-align: center;
+  padding: 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+}
+
+nav a:hover {
+  color: gold;
+}
+
+main {
+  max-width: 1000px;
+  margin: auto;
+  padding: 30px 20px;
+}
+
+section {
+  background-color: white;
+  margin-bottom: 25px;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+h2 {
+  border-bottom: 2px solid gold;
+}
+
+.destaque {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.destaque img {
+  width: 40%;
+  border-radius: 10px;
+}
+
+.codigo {
+  color: #777;
+  font-size: 14px;
+}
+
+.etiqueta {
+  display: inline-block;
+  background-color: gold;
+  padding: 8px 12px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.hipoteses {
+  display: flex;
+  gap: 15px;
+}
+
+article {
+  flex: 1;
+  background-color: rgb(255, 250, 240);
+  padding: 18px;
+  border-radius: 8px;
+}
+
+aside {
+  background-color: #272727;
+  color: white;
+  padding: 25px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+blockquote {
+  border-left: 4px solid gold;
+  margin-left: 0;
+  padding: 20px;
+  font-style: italic;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #cccccc;
+  text-align: left;
+}
+
+th {
+  background-color: #333;
+  color: white;
+  text-align: center;
+}
+
+.alert {
+  background-color: #fff1d6;
+  border-left: 6px solid #d59326;
+}
+
+footer {
+  background-color: #1b1b1b;
+  color: white;
+  text-align: center;
+  padding: 30px;
+  font-size: 16px;
+}
+
+@media (max-width: 700px) {
+  .destaque,
+  .hipoteses {
+    flex-direction: column;
+  }
+  .destaque img {
+    width: 100px;
+  }
+  nav a {
+    display: block;
+  }
+
+  table {
+    font-size: 13px;
+  }
+}
