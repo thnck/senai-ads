@@ -1,0 +1,148 @@
+h1 {
+  text-align: center;
+  color: white;
+}
+body {
+  background-color: #1d1d1d;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+a {
+  text-transform: none;
+  color: white;
+}
+
+a:hover {
+  color: gold;
+}
+
+button:active {
+  background-color: gold;
+  color: #1d1d1d;
+}
+
+input:focus {
+  outline: 2px solid gold;
+}
+
+input:checked {
+  accent-color: gold;
+}
+
+li:first-child {
+  color: saddlebrown;
+}
+
+li:nth-child(even) {
+  background-color: goldenrod;
+}
+li:nth-child(odd) {
+  background-color: khaki;
+}
+
+input:required {
+  border: 2px solid gold;
+}
+input[type="email"]:invalid:not(:placeholder-shown) {
+  border: 2px solid red;
+}
+
+.caixa {
+  background-color: steelblue;
+  width: 120px;
+  text-align: center;
+  border: 2px solid darkblue;
+  border-radius: 5px;
+
+  animation: mover 2s infinite alternate;
+}
+
+@keyframes mover {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(100px);
+  }
+}
+
+.palco {
+    position: relative;
+  background-color: cornflowerblue;
+  border-bottom: 5px solid green;
+  margin-top: 20px;
+  width: 200px;
+  height: 200px;
+}
+
+.bola {
+  position: absolute;
+  bottom: 0;
+  left: 80px;
+  width: 40px;
+  height: 40px;
+  background-color: pink;
+  border-radius: 50%;
+  animation: quicar 1s infinite;
+}
+
+@keyframes quicar {
+  0%,
+  100% {
+    transform: translateY(0) scaleX(1.2) scaleY(0.8);
+  }
+  50% {
+    transform: translateY(-100px) scaleX(0.8) scaleY(1.2);
+  }
+
+}
+
+.sistema{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    margin: 30px;
+    background-color: rgb(21, 21, 21);
+}
+
+.sol{
+    position: absolute;
+    top: 106px;
+    left: 106px;
+    width: 50px;
+    height: 50px;
+    background-color: orange;
+    border-radius: 50%;
+}
+
+.orbita{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 200px;
+    height: 200px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    animation: orbitar 5s linear infinite;
+}
+
+.planeta{
+    position: absolute;
+    top: -12px;
+    left: 88px;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: royalblue;
+}
+
+.sistema:hover .orbita{
+    animation-play-state:paused;
+}
+
+@keyframes orbitar{
+    to{
+        transform: rotate(360deg);
+    }
+}
