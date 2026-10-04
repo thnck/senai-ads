@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SENAI ADS · Projetos do Baymax</title>
+<meta name="description" content="Repositório de projetos do curso técnico em Análise e Desenvolvimento de Sistemas do SENAI, apresentado pelo Baymax.">
+<link rel="icon" href="assets/logo-2.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Fredoka:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#repositorio">Ir para o repositório</a>
+
+<header class="nav-wrap">
+  <nav class="nav" aria-label="Principal">
+    <a href="#topo" class="logo-link" aria-label="Início"><img src="assets/logo-senai.png" alt="SENAI" class="logo-senai"></a>
+    <div class="links">
+      <a href="#repositorio">Repositório</a>
+      <a href="#semestres">Semestres</a>
+      <a href="#projetos">Projetos</a>
+      <a class="gh" href="https://github.com/thnck/senai-ads" target="_blank" rel="noopener" aria-label="Abrir no GitHub"><img src="assets/logo-2.png" alt="GitHub"></a>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <section class="hero" id="topo">
+    <div class="hero-copy">
+      <h1>Olá. Eu sou o Baymax, seu agente pessoal de estudos.</h1>
+      <p>Este repositório é de <a class="owner" href="https://github.com/thnck" target="_blank" rel="noopener"><strong>Thomas Alves</strong></a>. O <strong>senai-ads</strong> guarda os projetos, exercícios e materiais do curso técnico de Análise e Desenvolvimento de Sistemas do SENAI, organizados por semestre.</p>
+      <div class="actions">
+        <a class="btn" href="#repositorio">Conhecer o repositório</a>
+        <a class="btn ghost" href="https://github.com/thnck/senai-ads" target="_blank" rel="noopener">Abrir no GitHub</a>
+      </div>
+    </div>
+    <img class="hero-img" src="assets/baymax.png" alt="Baymax acenando com a mão">
+  </section>
+
+  <section id="repositorio" class="wrap">
+    <h2>O que tem no repositório</h2>
+    <div class="repo">
+      <div class="repo-text">
+        <p>É o diário de bordo de um curso de <strong>1200 horas</strong>. O objetivo da formação é desenvolver, testar e implantar sistemas computacionais com qualidade, usabilidade, integridade e segurança da informação.</p>
+        <ul class="skills">
+          <li><strong>Desenvolver sistemas</strong> com lógica, Java, web e banco de dados.</li>
+          <li><strong>Testar aplicações</strong> antes de entregar.</li>
+          <li><strong>Implantar sistemas</strong> e treinar quem vai usar.</li>
+        </ul>
+        <a class="repo-link" href="https://github.com/thnck/senai-ads" target="_blank" rel="noopener">
+          <img src="assets/logo-2.png" alt="" width="40" height="40">
+          <span>github.com/thnck/senai-ads<small id="repo-updated">Ver no GitHub</small></span>
+        </a>
+      </div>
+      <pre class="tree" aria-label="Estrutura de pastas"><code>senai-ads/
+├── README.md
+├── semestre1/
+│   ├── arquitetura-iot/
+│   ├── levantamento-requisitos/
+│   ├── programacao-algoritmos/
+│   └── sistemas-operacionais/
+├── semestre2/
+│   ├── backend-1/
+│   ├── data-base/
+│   ├── html-css/
+│   └── projetos/
+├── semestre3/
+└── semestre4/</code></pre>
+    </div>
+  </section>
+
+  <section id="semestres" class="wrap">
+    <h2>Os quatro semestres</h2>
+    <ol class="timeline" id="timeline"></ol>
+  </section>
+
+  <section id="projetos" class="wrap">
+    <h2>Projetos por área</h2>
+    <p class="intro">As quatro matérias de cada semestre. Cada linha abre a pasta correspondente no GitHub.</p>
+    <div class="filters" id="filters" role="group" aria-label="Filtrar por semestre"></div>
+    <ul class="chart" id="chart"></ul>
+    <p class="empty" id="empty" hidden>Nenhuma matéria nesse semestre ainda. Escolha outro.</p>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="foot-grid">
+    <div class="foot-me">
+      <div class="who">
+        <img class="avatar" src="https://avatars.githubusercontent.com/u/115756183?v=4" alt="Foto de perfil de Thomas Alves" width="64" height="64">
+        <div>
+          <strong>Thomas Alves</strong>
+          <span>Estudante de ADS</span>
+        </div>
+      </div>
+      <p>Aluno do curso técnico de Análise e Desenvolvimento de Sistemas no SENAI-SP, com foco em Java. Este site reúne o que eu aprendo e construo.</p>
+      <img src="assets/logo-senai.png" alt="SENAI" class="logo-senai">
+    </div>
+
+    <nav class="foot-nav" aria-label="Rodapé">
+      <h2>Navegue</h2>
+      <a href="#repositorio">Repositório</a>
+      <a href="#semestres">Semestres</a>
+      <a href="#projetos">Projetos</a>
+      <a href="https://github.com/thnck/senai-ads" target="_blank" rel="noopener">senai-ads no GitHub</a>
+    </nav>
+
+    <div class="foot-contact">
+      <h2>Contato</h2>
+      <ul>
+        <li><img src="assets/icon-local.png" alt="" width="22" height="22"><span>São Paulo, Brasil</span></li>
+        <li><img src="assets/icon-email.png" alt="" width="22" height="22"><a href="mailto:ythnck@gmail.com">ythnck@gmail.com</a></li>
+        <li><img src="assets/icon-linkedin.png" alt="" width="22" height="22"><a href="https://www.linkedin.com/in/alvesthomas" target="_blank" rel="noopener">in/alvesthomas</a></li>
+        <li><img src="assets/icon-instagram.png" alt="" width="22" height="22"><a href="https://instagram.com/89teaga" target="_blank" rel="noopener">@89teaga</a></li>
+        <li><img src="assets/logo-2.png" alt="" width="22" height="22"><a href="https://github.com/thnck" target="_blank" rel="noopener">github.com/thnck</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
