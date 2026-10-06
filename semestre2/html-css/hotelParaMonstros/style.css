@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap');
+
+:root {
+    --fundo: #202125;
+    --texto: #f4efff;
+    --roxo: #8060d8;
+    --lavanda: #b79cff;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    color: var(--texto);
+    background: var(--fundo);
+    font-family: 'DM Sans', sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    padding: 22px 7vw;
+}
+
+.marca {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: var(--texto);
+    text-decoration: none;
+}
+
+.marca img {
+    width: 60px;
+    height: 60px;
+}
+
+.marca span {
+    color: var(--lavanda);
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: clamp(1.2rem, 2vw, 1.7rem);
+    font-weight: 700;
+    letter-spacing: 0.04em;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 24px;
+}
+
+nav a {
+    color: var(--texto);
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: var(--lavanda);
+}
+
+.boos-laterais img {
+    position: absolute;
+    z-index: 2;
+    width: clamp(70px, 9vw, 130px);
+    height: auto;
+    pointer-events: none;
+}
+
+.quartos {
+    position: relative;
+}
+
+.boo-esquerda {
+    left: 1vw;
+    top: 160px;
+    animation: boo-esquerda 4s ease-in-out infinite;
+}
+
+.boo-direita {
+    right: 1vw;
+    bottom: 160px;
+    animation: boo-direita 4s ease-in-out infinite;
+}
+
+@keyframes boo-esquerda {
+    0%,
+    100% {
+        top: 160px;
+    }
+
+    50% {
+        top: 240px;
+    }
+}
+
+@keyframes boo-direita {
+    0%,
+    100% {
+        bottom: 160px;
+    }
+
+    50% {
+        bottom: 240px;
+    }
+}
+
+.inicio {
+    position: relative;
+    display: flex;
+    min-height: 680px;
+    align-items: center;
+    padding: 80px 7vw;
+    background: url('src/image.png') center / cover no-repeat;
+}
+
+.inicio::before {
+    position: absolute;
+    z-index: 0;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.55);
+    content: '';
+}
+
+.inicio-conteudo {
+    position: relative;
+    z-index: 1;
+    width: min(680px, 100%);
+}
+
+.inicio h2,
+.titulo-secao h2,
+.sobre h2,
+.contato h2 {
+    margin: 0 0 18px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+    line-height: 1.15;
+}
+
+.inicio h2 {
+    max-width: 700px;
+    color: var(--lavanda);
+    font-size: clamp(2.3rem, 6vw, 5rem);
+}
+
+.inicio p {
+    max-width: 560px;
+    margin: 0 0 30px;
+    font-size: 1.1rem;
+}
+
+.botao-principal,
+.botao-quarto,
+.formulario-contato button {
+    display: inline-block;
+    border: 0;
+    border-radius: 4px;
+    color: var(--texto);
+    background: var(--roxo);
+    cursor: pointer;
+    font: inherit;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.botao-principal {
+    padding: 13px 22px;
+}
+
+.botao-principal:hover,
+.botao-quarto:hover,
+.formulario-contato button:hover {
+    background: var(--lavanda);
+    color: var(--fundo);
+}
+
+.quartos,
+.sobre,
+.contato {
+    padding: 90px 7vw;
+    background: var(--fundo);
+}
+
+.titulo-secao {
+    max-width: 660px;
+    margin: 0 auto 42px;
+    text-align: center;
+}
+
+.titulo-secao h2,
+.sobre h2,
+.contato h2 {
+    color: var(--lavanda);
+    font-size: clamp(1.9rem, 4vw, 3rem);
+}
+
+.lista-quartos {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 0 auto;
+}
+
+.quarto {
+    display: flex;
+    width: 70vw;
+    margin: 0 auto;
+    overflow: hidden;
+    border: 1px solid #4a3d68;
+    border-radius: 8px;
+}
+
+.quarto:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.imagem-quarto {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.imagem-quarto img {
+    display: block;
+    width: 35vw;
+    max-width: 100%;
+    height: auto;
+}
+
+.conteudo-quarto {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px;
+}
+
+.conteudo-quarto h3 {
+    margin:0;
+    color: var(--texto);
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1.35rem;
+}
+
+.conteudo-quarto p {
+    margin: 0;
+    font-size: 0.94rem;
+}
+
+.preco-quarto {
+    margin-top: auto;
+    color: var(--lavanda);
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.caracteristicas-quarto {
+    display: grid;
+    gap: 5px;
+    width: 100%;
+    margin: 18px 0 22px;
+    padding: 0 0 0 18px;
+    font-size: 0.85rem;
+}
+
+.botao-quarto {
+    margin-top: auto;
+    padding: 10px 16px;
+}
+
+.conteudo-sobre,
+.conteudo-contato {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.sobre p {
+    max-width: 720px;
+    font-size: 1.05rem;
+}
+
+.formulario-contato {
+    display: grid;
+    gap: 14px;
+    margin-top: 28px;
+}
+
+.formulario-contato input,
+.formulario-contato textarea {
+    width: 100%;
+    border: 1px solid #4a3d68;
+    border-radius: 4px;
+    padding: 13px 15px;
+    color: var(--texto);
+    background: var(--fundo);
+    font: inherit;
+}
+
+.formulario-contato textarea {
+    min-height: 130px;
+    resize: vertical;
+}
+
+.formulario-contato input:focus,
+.formulario-contato textarea:focus {
+    border-color: var(--lavanda);
+    outline: 2px solid rgba(183, 156, 255, 0.18);
+}
+
+.formulario-contato button {
+    justify-self: start;
+    padding: 12px 20px;
+}
+
+hr {
+    width: 86%;
+    margin: 0 auto;
+    border: 0;
+    border-top: 1px solid #4a3d68;
+}
+
+.rodape {
+    padding: 26px 7vw;
+    text-align: center;
+}
+
+.rodape p {
+    margin: 0;
+    font-size: 0.85rem;
+}
+
+@media (max-width: 700px) {
+    header,
+    nav {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    header {
+        gap: 16px;
+    }
+
+    nav {
+        gap: 10px;
+    }
+
+    .inicio {
+        min-height: 420px;
+        padding-top: 64px;
+        padding-bottom: 64px;
+    }
+
+    .quartos,
+    .sobre,
+    .contato {
+        padding-top: 64px;
+        padding-bottom: 64px;
+    }
+
+    .lista-quartos {
+        gap: 24px;
+    }
+
+    .quarto,
+    .quarto:nth-child(even) {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .imagem-quarto,
+    .conteudo-quarto {
+        width: 100%;
+    }
+
+    .imagem-quarto img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .boos-laterais {
+        display: none;
+    }
+}
