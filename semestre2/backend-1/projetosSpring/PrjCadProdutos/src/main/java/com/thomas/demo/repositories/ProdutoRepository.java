@@ -1,4 +1,9 @@
-package main.java.com.thomas.demo.repositories;
+package com.thomas.demo.repositories;
 
-public class ProdutoRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.thomas.demo.entities.Produto;
+
+public interface ProdutoRepository extends JpaRepository<Produto, Long> {
+
 }
