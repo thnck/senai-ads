@@ -1,5 +1,5 @@
 // Crie um objeto chamado personagem com as propriedades: nome, classe, nível, vida e força.
-
+//1
 let personagem = {
     nome: "Thomas",
     classe: "Guerreiro",
@@ -8,18 +8,13 @@ let personagem = {
     forca: 100
 }
 
-console.log("============================");
-
-
 console.log( `Nome: ${personagem.nome}`);
 console.log( `Classe: ${personagem.classe}`);
 console.log( `Nível: ${personagem.nivel}`);
 console.log( `Vida: ${personagem.vida}`);
 console.log( `Força: ${personagem.forca}`);
 
-console.log("=============================");
-
-
+//2
 let carro = {
 marca: "Chevrolet",
 modelo:"Vectra",
@@ -34,8 +29,7 @@ console.log(`Ano: ${carro.ano}`);
 console.log(`Cor: ${carro.cor}`);
 console.log(`Preço: ${carro.preco}`);
 
-console.log("=============================");
-
+//3
 let produto = {
     nome: "Teclado",
     preco: 100,
@@ -46,8 +40,7 @@ console.log(`Nome: ${produto.nome}`);
 console.log(`Preço: ${produto.preco = 20}`);
 console.log(`Estoque: ${produto.estoque}`);
 
-console.log("=============================");
-
+//4
 let filme = {
     titulo: "Interestelar",
     ano: 2014,
@@ -62,10 +55,7 @@ console.log(`Diretor: ${filme.diretor}`);
 console.log(`Gênero: ${filme.genero}`);
 console.log(`Nota: ${filme.nota}`);
 
-
-
-console.log("==============================");
-
+//5
 let animal = {nome : "Totó", especie : "Golden Retriever", idade : 3, peso : 35, vacinado : true}
 
 if (animal.vacinado == true) {
@@ -75,10 +65,7 @@ else{
     console.log("O animal não está vacinado");
 }
 
-console.log("===============================");
-
-
-
+//6
 let aluno = {
     nome: "Mariana",
     nota1: 8,
@@ -92,13 +79,6 @@ console.log(`${aluno.nome} está aprovada!`);
 }else{
 console.log(`${aluno.nome} está reprovada!`);
 }
-
-
-
-console.log("=====================");
-
-
-
 
 
 
