@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            font-family: monospace;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        h1{
+
+        }
+        input{
+            height: 30px;
+            gap: 10px;
+        }
+        button{
+            width: 100px;
+            height: 30px;
+            color: white;
+            background-color: crimson;
+        }
+
+        button:active{
+        background-color: white;
+        color: crimson;
+        }
+
+        p{
+            gap: 5px;
+        }
+
+
+
+
+
+
+
+
+
+    </style>
+    <title>Pokédex</title>
+</head>
+<body>
+
+    <div></div>
+    <h1>Minha Pokédex</h1>
+
+    <input type="text" id="pokemon" placeholder="Ex: Pikachu">
+    <button onclick="buscar()">Buscar</button>
+
+    <h3 id="id"></h3>
+    <h2 id="nome"></h2>
+    <img id="imagem" width="300">
+    
+    <p id="peso"></p>
+    <p id="altura"> </p>
+    <p id="habilidade"> </p>
+
+    <script>
+        async function buscar(){
+            const nome = document.getElementById("pokemon").value.toLowerCase();
+
+            const resposta = await fetch(
+                `https://pokeapi.co/api/v2/pokemon/${nome}`
+        );
+
+        const dados = await resposta.json();
+        
+        document.getElementById("id").innerText = `ID: ${dados.id}`;
+        document.getElementById("nome").innerText = dados.name;
+        document.getElementById("imagem").src = dados.sprites.other.home.front_default;
+        document.getElementById("altura").innerText = `Altura: ${dados.height}`;
+        document.getElementById("peso").innerText = `Peso: ${dados.weight} Kg`;
+        document.getElementById("habilidade").innerText = `Habilidade: ${dados.abilities[0].ability.name}`;
+        }
+    </script>
+</body>
+</html>
