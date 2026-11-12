@@ -203,14 +203,68 @@ right join Posicoes p
 on p.id_posicao = j.id_posicao;
 
 -- 15
+select 
+    j.nome_jogador,
+    t.nome_time,
+    p.nome_posicao
+from Times t
+right join Jogadores j
+on t.id_time = j.id_time
+left join Posicoes p
+on p.id_posicao = j.id_posicao;
 
 -- 16
+select 
+    t.nome_time
+from Jogadores j
+right join Times t
+on t.id_time = j.id_time
+where j.id_jogador is null;
 
 -- 17
+select 
+    j.nome_jogador,
+    t.nome_time,
+    p.nome_posicao,
+    t.titulos_pdinglesa
+from Jogadores j
+inner join Times t
+on t.id_time = j.id_time
+inner join Posicoes p
+on p.id_posicao = j.id_posicao
+where t.titulos_pdinglesa >= 10;
 
 -- 18
+select 
+    j.nome_jogador,
+    j.email,
+    t.nome_time
+from Jogadores j
+left join Times t
+on t.id_time = j.id_time;
 
 -- 19
+select 
+    t.nome_time,
+    t.titulos_pleague,
+    j.nome_jogador,
+    j.email
+from Jogadores j
+right join Times t
+on t.id_time = j.id_time;
 
 -- 20
-
+select 
+    j.nome_jogador,
+    j.email,
+    p.sigla_posicao,
+    p.nome_posicao,
+    t.nome_time,
+    t.titulos_pdinglesa,
+    t.titulos_pleague
+from Jogadores j
+left join Times t
+on t.id_time = j.id_time
+left join Posicoes p
+on p.id_posicao = j.id_posicao
+order by t.nome_time, j.nome_jogador;
